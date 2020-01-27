@@ -27,6 +27,7 @@
 
   
 
+  <link rel="stylesheet" href="https://oindk07nf.qnssl.com/atom-one-dark.css" medio="screen" type="text/css">
 <link rel="alternate" href="/atom.xml" title="糖" type="application/atom+xml">
 </head>
 
@@ -64,7 +65,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">36字</span>
+            <span class="post-count">606字</span>
         </span>
     </span>
 
@@ -73,7 +74,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">1分钟</span>
+            <span class="post-count">2分钟</span>
         </span>
     </span>
 </div>
@@ -84,6 +85,8 @@
 
     
     
+    <div class="tocbot"></div>
+
 
 
 
@@ -97,7 +100,34 @@
       
 
       
-      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+      <h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World!"></a>Hello World!</h1><h2 id="这是我博客的第一篇文章"><a href="#这是我博客的第一篇文章" class="headerlink" title="这是我博客的第一篇文章"></a>这是我博客的第一篇文章</h2><p>终于，我开始写博客了。<br>这是利用Hexo和GitHub搭建的静态博客！</p>
+<a id="more"></a>
+
+<h3 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h3><p>我用的是Win10，所以这里以Windows环境安装node.js为例，首先登录<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js官网</a>，选择适合自己的版本进行下载，然后进行安装。</p>
+<p><img src="https://raw.githubusercontent.com/huiyu0320/picBed/master/20200127181647.png" alt=""></p>
+<h3 id="安装git客户端"><a href="#安装git客户端" class="headerlink" title="安装git客户端"></a>安装git客户端</h3><p>登录<a href="https://git-scm.com/" target="_blank" rel="noopener">git官网</a>选择需要的版本进行下载，安装步骤一直next就行。<br><img src="https://raw.githubusercontent.com/huiyu0320/picBed/master/20200127182603.png" alt=""></p>
+<p><strong>注意</strong></p>
+<p>安装过程中，注意勾选在右键菜单建立git bash快捷方式一项，因为之后的各种操作都需要在git bash中用命令行进行操作，方便随时随地打开命令窗口。</p>
+<h3 id="安装及初始化Hexo"><a href="#安装及初始化Hexo" class="headerlink" title="安装及初始化Hexo"></a>安装及初始化Hexo</h3><p>重头戏来了，整个博客都是基于Hexo来生成的。Hexo的安装是通过npm命令进行安装的，安装完node.js，便默认安装了npm包管理工具，而npm的官方仓库位于境外，由于众所周知的原因，我们大陆用户基本是访问不了官方源了，所以推荐大家使用淘宝镜像进行替换。</p>
+<p>配置淘宝镜像:<br>在电脑任意空白处点击右键，选择Git Bash Here打开命令行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm instasll -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><p>使用下面的命令用npm对Hexo进行全局安装</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo -g</span><br></pre></td></tr></table></figure>
+
+<h3 id="初始化Hexo"><a href="#初始化Hexo" class="headerlink" title="初始化Hexo"></a>初始化Hexo</h3><p>安装完Hexo后,可以选择在某个盘的根目录下创建一个文件夹(例如:f:\Myblog),进入文件夹中右击,选择git bash here打开命令行.对博客进行初始化,生成博客运作所需的文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p>接下来安装依赖包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>还可以安装hexo-deployer-git,方便之后博客的部署</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="本地运行"><a href="#本地运行" class="headerlink" title="本地运行"></a>本地运行</h3><p>这个时候便可以看到博客的真容了.<br>在命令行执行一下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate  &#x2F;&#x2F;可省略为: hexo g  用于生成静态文件</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server &#x2F;&#x2F;可省略为: hexo s  用于启动服务器,主要是用来本地预览</span><br></pre></td></tr></table></figure>
+<p>在看到这样的提示后,便可在本地访问<a href="http://localhost:4000" target="_blank" rel="noopener">4000端口</a>,对博客进行预览<br><img src="https://raw.githubusercontent.com/huiyu0320/picBed/master/20200127191524.png" alt=""></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>这只是简单的在本地环境下搭建博客,我们还可以把博客部署到github上,这样不需要租服务器和备案域名,别人也可以访问你的博客.</p>
 
       
       <!-- 打赏 -->
@@ -265,7 +295,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/2019/about">关于我</a>
+      <a class="nav-item-link" href="/2020/about">关于我</a>
     </li>
     
   </ul>
