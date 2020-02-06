@@ -5,9 +5,9 @@
   <subtitle>回忆像是沾满白的糖果</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://milklollipop.club/"/>
   <updated>2020-01-27T16:05:42.454Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://milklollipop.club/</id>
   
   <author>
     <name>Lollipop</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>2020年春节</title>
-    <link href="http://yoursite.com/2020/2020year/"/>
-    <id>http://yoursite.com/2020/2020year/</id>
+    <link href="http://milklollipop.club/2020/2020year/"/>
+    <id>http://milklollipop.club/2020/2020year/</id>
     <published>2020-01-27T14:00:04.000Z</published>
     <updated>2020-01-27T16:05:42.454Z</updated>
     
@@ -33,17 +33,17 @@
     </summary>
     
     
-      <category term="生活" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://milklollipop.club/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://milklollipop.club/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>About Me</title>
-    <link href="http://yoursite.com/2020/about/"/>
-    <id>http://yoursite.com/2020/about/</id>
+    <link href="http://milklollipop.club/2020/about/"/>
+    <id>http://milklollipop.club/2020/about/</id>
     <published>2020-01-27T06:00:04.000Z</published>
     <updated>2020-01-27T13:58:03.977Z</updated>
     
@@ -57,17 +57,17 @@
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://milklollipop.club/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://milklollipop.club/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/helloworld/"/>
-    <id>http://yoursite.com/2020/helloworld/</id>
+    <link href="http://milklollipop.club/2020/helloworld/"/>
+    <id>http://milklollipop.club/2020/helloworld/</id>
     <published>2020-01-27T04:05:24.776Z</published>
     <updated>2020-01-27T11:34:18.386Z</updated>
     
@@ -79,7 +79,7 @@
     
     
     
-      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://milklollipop.club/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
