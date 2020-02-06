@@ -5931,11 +5931,13 @@ button {
   transform: translate(-50%, -100%);
 }
 .cover-inner h1 {
+  font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft JhengHei", "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 7rem;
   margin: 0;
   opacity: 0.95;
 }
-.cover-inner h2 {
+.cover-inner #subtitle-box {
+  font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft JhengHei", "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 3rem;
   margin: 0.5rem 0 1.5rem;
 }
@@ -5998,7 +6000,7 @@ button {
   .cover-inner h1 {
     font-size: 4.5rem;
   }
-  .cover-inner h2 {
+  .cover-inner #subtitle-box {
     font-size: 2rem;
   }
   .to_top {
@@ -6431,7 +6433,7 @@ button {
   text-shadow: 0 1px #be3221;
 }
 .tocbot {
-  position: fixed;
+  position: absolute;
   top: 14rem;
   left: calc((100vw - 70rem) / 2 + 70rem);
   font-size: 80%;
@@ -6475,6 +6477,12 @@ a.toc-link {
   margin-top: -1px;
   position: absolute;
   width: 2px;
+}
+.is-active-link::before {
+  background-color: #3d85c6;
+}
+.is-active-link {
+  font-weight: 700;
 }
 .article-gallery {
   position: relative;
